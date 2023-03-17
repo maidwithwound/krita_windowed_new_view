@@ -7,7 +7,7 @@ v1.1 可以分配快捷键了
 点击时新建当前文档的新视图，并自动窗口化和设为置顶
 
 ### 安装 ###
-1. 下载zip压缩包（左边有个Downloads, 进去之后点Download repository直接下载）
+1. 下载zip压缩包
 2. 使用Krita菜单中的工具→脚本→从文件导入 Python 插件
 3. 弹出对话框，点击“是”
 4. 重启Krita
@@ -69,10 +69,10 @@ v1.0 release
 v1.1 It can now be assigned a shortcut key  
 
 ### Function ###
-Creates a new view of the current document when clicked, automatically windowed it and set 'Always on top'.
+Creates a new view of the current document when clicked, automatically windowed it and set 'Stay on top'.  
 
 ### Installation ###
-1. Download the zip archive (There is a "Downloads" on the left, go in and click on Download repository)
+1. Download the zip archive  
 2. Use Tools → Scripts → Import Python Plugin from File in the Krita menu
 3. A dialog box will pop up, click "Yes"
 4. Restart Krita
