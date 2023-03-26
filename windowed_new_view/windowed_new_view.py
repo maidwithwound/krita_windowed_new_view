@@ -17,6 +17,7 @@ class WindowedNewView(Extension):
         
         # Create a new view for current document
         new_view = krita.Krita.instance().activeWindow().addView(doc)
+        new_view.canvas().setMirror(not new_view.canvas().mirror())
 
         # Get the active subwindow
         subWindow = new_view.window().qwindow().centralWidget().currentWidget().activeSubWindow()
